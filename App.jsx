@@ -6,7 +6,7 @@ import HeroVideo from "./components/HeroVideo";
 import FeaturedProjects from "./components/Sections/Projects";
 import MyWordsSection from "./components/Sections/MyWords";
 import ContactSection from "./components/Sections/Contact";
-import "./style.css";
+// import "/style.css";
 
 function App() {
   return (
