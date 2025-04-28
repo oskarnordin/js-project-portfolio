@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import styled from "styled-components";
-import useIntersectionObserver from "../../hooks/useIntersectionObserver";
+import useIntersectionObserver from "/hooks/useIntersectionObserver";
 
 const MyWordsCardContainer = styled.div`
   background-color: #f8f8f8; /* Match the background color of other cards */

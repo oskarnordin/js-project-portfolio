@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import styled from "styled-components";
-import useIntersectionObserver from "../../hooks/useIntersectionObserver";
+import useIntersectionObserver from "/hooks/useIntersectionObserver";
 
 const ContactCardContainer = styled.div`
   background-color: transparent;

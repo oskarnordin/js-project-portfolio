@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import styled from "styled-components";
-import useIntersectionObserver from "../../hooks/useIntersectionObserver";
+import useIntersectionObserver from "/hooks/useIntersectionObserver";
 import { AngleDownImage } from "../SharedComponents";
 import { CenteredContainer } from "../SharedComponents";
 
