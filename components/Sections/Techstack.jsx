@@ -6,7 +6,7 @@ import { CenteredContainer } from "../SharedComponents";
 
 const Background = styled.div`
   position: relative;
-  background-color: #eeeeee;
+  background-color: navy;
   min-height: 100vh;
   min-width: 100%;
   z-index: 20;
@@ -14,9 +14,9 @@ const Background = styled.div`
 
 const TechstackContainer = styled.div`
   min-height: 100vh;
-  background-color: #eeeeee;
+  background-color: navy;
   font-family: Teko, sans-serif;
-  color: #000000;
+  color: white;
   position: relative;
   z-index: 30;
   font-size: 16px;
@@ -64,7 +64,7 @@ const TechstackSection = () => {
         <a href="#projects">
           <CenteredContainer>
             <AngleDownImage
-              src="img/angle-square-down.png"
+              src="img/angle-square-light.webp"
               alt="Angle down icon"
             />
           </CenteredContainer>

@@ -15,9 +15,9 @@ const Background = styled.div`
 
 const SkillsContainer = styled.div`
   min-height: 100vh;
-  background-color: #f4f4f4;
+  background-color: navy;
   font-family: Teko, sans-serif;
-  color: #000000;
+  color: white;
   position: relative;
   z-index: 30;
   font-size: 16px;
@@ -65,7 +65,7 @@ const SkillsSection = () => {
         <a href="#contact">
           <CenteredContainer>
             <AngleDownImage
-              src="img/angle-square-down.png"
+              src="img/angle-square-light.webp"
               alt="Angle down icon"
             />
           </CenteredContainer>

@@ -3,7 +3,7 @@ import styled from "styled-components";
 import useIntersectionObserver from "../../hooks/useIntersectionObserver";
 
 const InfoCardContainer = styled.div`
-  background-color: #f8f8f8;
+  background-color: transparent;
   display: flex;
   border-radius: 28px;
   align-items: center;
@@ -15,7 +15,7 @@ const InfoCardContainer = styled.div`
   max-width: 400px;
   gap: 10px;
   text-align: center;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
   opacity: 0; /* Start hidden */
   transform: translateY(20px); /* Start with offset */
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
@@ -34,8 +34,8 @@ const InfoIcons = styled.img`
 `;
 
 const InfoH2 = styled.h2`
-  color: black;
-  font-size: 38px;
+  color: white;
+  font-size: 44px;
   font-weight: bold;
   margin-bottom: 10px;
 `;

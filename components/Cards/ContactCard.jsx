@@ -52,14 +52,14 @@ const ContactH2 = styled.h2`
 `;
 
 const ContactH3 = styled.h3`
-  background-color: #e2e8f0;
+  background-color: transparent;
   justify-content: center;
   align-items: center;
   font-family: DM sans;
   display: flex;
   color: #2d3748;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 32px;
   padding: 10px;
   margin: 5px;
   border-radius: 16px;
@@ -78,6 +78,7 @@ const ContactCard = () => {
     <ContactCardContainer ref={ref} className={isVisible ? "visible" : ""}>
       <ContactH2>Let's talk</ContactH2>
       <SelfieImage src="/img/selfie-round.png" alt="Selfie of Oskar Nordin" />
+      <ContactH3>Oskar Nordin</ContactH3>
       <ContactH3>+46701774998</ContactH3>
       <ContactH3>oskarnordin1@gmail.com</ContactH3>
     </ContactCardContainer>
